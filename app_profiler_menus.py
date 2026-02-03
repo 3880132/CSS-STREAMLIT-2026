@@ -30,7 +30,7 @@ if menu == "Researcher Profile":
     st.write(f"**Field of Research:** {field}")
     st.write(f"**Institution:** {institution}")
     
-    st.image("C:/Users/biohl/Downloads/Nitty Gritty.jpg",
+    st.image("C:/Users/biohl/OneDrive/Desktop/Coding School/streamlit_files/streamlit_files/Nitty Gritty.jpg",
     caption="Biomedical Nitty-Gritty"
 )
 
@@ -40,7 +40,7 @@ elif menu == "Research Interests":
     # st.sidebar.header("To be uploaded soon")
     
     # Collect basic information
-    name = ["Biomedical Science", "Health Informatics", "Microbiology", "Drug Development"]
+    name = "Biomedical Science", "Health Informatics", "Microbiology", "Drug Development"
 
 
     # Display basic profile information
@@ -53,8 +53,8 @@ elif menu == "Professional Experience":
     # st.sidebar.header("To be uploaded soon")
        
     # Collect basic information
-    name = ["Microbiologist", "Biomedical Scientist", "Health Informatician", 
-    "Data Scientist", "Drug Discovery and Development Enthusiast", "Seasoned Teächer"]
+    name = "Microbiologist", "Biomedical Scientist", "Health Informatician", 
+    "Data Scientist", "Drug Discovery and Development Enthusiast", "Seasoned Teächer"
 
 
     # Display basic profile information
@@ -67,7 +67,7 @@ elif menu == "Publications":
     # st.sidebar.header("Upload and Filter")
     
     # Collect basic information
-    name = ["Investigating antimicrobial resistance genes in Kenya, Uganda and Tanzania cattle using metagenomics. PeerJ 12 (2024): e17181. https://doi.org/10.7717/peerj.17181"]  
+    name = "Investigating antimicrobial resistance genes in Kenya, Uganda and Tanzania cattle using metagenomics. PeerJ 12 (2024): e17181. https://doi.org/10.7717/peerj.17181"  
     
     # Display basic profile information
     st.write(f"**Name:** {name}")
