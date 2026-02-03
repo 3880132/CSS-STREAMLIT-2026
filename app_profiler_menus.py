@@ -17,7 +17,8 @@ menu = st.sidebar.radio(
 #Researcher Profile
 if menu == "Researcher Profile":
     st.title("Researcher Profile")
-    st.sidebar.header("Profile Options")
+    #st.sidebar.header("Profile Options") - remove hashtag later if needed or delete
+    #entirely if the code line is not needed
 
     # Collect basic information
     name = "Abiola A. Babajide"
@@ -30,7 +31,7 @@ if menu == "Researcher Profile":
     st.write(f"**Institution:** {institution}")
     
     st.image(
-    "https://sl.bing.net/ia1pkfD9FYG",
+    "C:/Users/biohl/Downloads/Nitty Gritty.jpg",
     caption="Biomedical Nitty-Gritty"
 )
 
@@ -38,6 +39,18 @@ if menu == "Researcher Profile":
 elif menu == "Research Interests":
     st.title("Research Interests")
     st.sidebar.header("To be uploaded soon")
+    
+    # Collect basic information
+    name = "Biomedical Science"
+    name = "Health Informatics"
+    name = "Microbiology"
+    name = "Drug Development"
+
+    # Display basic profile information
+    st.write(f"**Name:** {name}")
+    st.write(f"**Name:** {name}")
+    st.write(f"**Name:** {name}")
+    st.write(f"**Name:** {name}")
     
 #Professional Experience 
 elif menu == "Professional Experience":
