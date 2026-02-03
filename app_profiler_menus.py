@@ -29,7 +29,7 @@ if menu == "Researcher Profile":
     st.write(f"**Field of Research:** {field}")
     st.write(f"**Institution:** {institution}")
     
-    st.image("C:/Users/biohl/OneDrive/Desktop/Coding School/streamlit_files/streamlit_files/Nitty Gritty.jpg",
+    st.image("Nitty Gritty.jpg",
     caption="Biomedical Nitty-Gritty"
 )
 
